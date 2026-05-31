@@ -52,7 +52,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-wrap gap-4"
         >
-          <a href="#experience" className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-violet-500 text-white font-medium hover:shadow-lg hover:shadow-indigo-500/25 transition-all">
+          <a href="#experience" className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-indigo-500 to-violet-500 text-white font-medium hover:shadow-lg hover:shadow-indigo-500/25 transition-all">
             See my work
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>

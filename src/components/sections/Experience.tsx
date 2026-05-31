@@ -29,7 +29,7 @@ export function Experience() {
           {/* Vertical line */}
           <div
             aria-hidden
-            className="absolute left-0 md:left-1/2 top-2 bottom-2 w-px bg-gradient-to-b from-indigo-500/30 via-neutral-800 to-transparent md:-translate-x-px"
+            className="absolute left-0 md:left-1/2 top-2 bottom-2 w-px bg-linear-to-b from-indigo-500/30 via-neutral-800 to-transparent md:-translate-x-px"
           />
 
           <div className="space-y-12 md:space-y-16">
@@ -79,7 +79,7 @@ export function Experience() {
                       <li key={bIdx} className="flex gap-3">
                         <span
                           aria-hidden
-                          className="text-indigo-500 mt-2 flex-shrink-0"
+                          className="text-indigo-500 mt-2 shrink-0"
                         >
                           ▸
                         </span>
