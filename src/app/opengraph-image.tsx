@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Krishna Boreda — Engineer, Problem solver, Product builder";
+export const alt = "Krishna Boreda — Developer, Problem solver, Pragmatist";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -51,7 +51,7 @@ export default async function Image() {
             fontFamily: "monospace",
           }}
         >
-          Engineer · Problem solver · Product builder
+          Developer · Problem solver · Pragmatist
         </div>
         <div
           style={{

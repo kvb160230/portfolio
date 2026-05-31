@@ -44,26 +44,19 @@ export function About() {
             part of.
           </p>
           <p>
-            Five years in, my path has taken me across an IBMi-based fintech
-            stack at{" "}
+            Five years in, my path has taken me from{" "}
             <span className="text-white font-medium">
               American First Finance
             </span>{" "}
-            and a modern SaaS compliance platform at{" "}
-            <span className="text-white font-medium">Sprinto</span>, working in
-            JavaScript, PHP, RPG, Vue, and SQL — and increasingly in roles where
-            I sit close to the customer. That proximity has shaped how I think
-            as an engineer: I&apos;ve seen which kinds of bugs actually hurt
-            users, which design choices cause confusion at scale, and what
-            observability looks like when it&apos;s good. It&apos;s made me
-            sharper about edge cases, more skeptical of happy paths, and more
-            deliberate about the systems I help build.
+            , where I worked across an AS/400 backbone, PHP services, and a Vue frontend, to
+            {" "} <span className="text-white font-medium">Sprinto</span>, a modern SaaS compliance platform.  
+            The throughline has been spending more and more of my time close to the customer. That proximity has shaped 
+            how I think as an engineer. I've seen which kinds of bugs actually hurt users, which design choices cause 
+            confusion at scale, and what observability looks like when it's good. It's made me sharper about edge cases, 
+            more skeptical of happy paths, and more deliberate about the systems I help build.
           </p>
           <p>
-            Now I&apos;m looking to bring that perspective back to building —
-            full-stack, platform, integrations, or developer-facing work where
-            the goal is to ship products that actually work for the people using
-            them.
+            Now I&apos;m looking to bring that perspective back to building products that actually work for the people using them.
           </p>
         </motion.div>
 

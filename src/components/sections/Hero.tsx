@@ -34,7 +34,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-mono text-base md:text-lg text-neutral-400 mb-8"
         >
-          Engineer <span className="text-neutral-600">·</span> Problem solver <span className="text-neutral-600">·</span> Product builder
+          Developer <span className="text-neutral-600">·</span> Problem solver <span className="text-neutral-600">·</span> Pragmatist
         </motion.p>
 
         <motion.p
@@ -43,7 +43,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl text-lg md:text-xl text-neutral-300 leading-relaxed mb-10"
         >
-          I build software with a bias toward the user. Years on the front lines of production support have made me a sharper engineer — I design knowing exactly how things fail, who it hurts, and what good looks like on the other side.
+          I build software for the people on the other side of it. The work I care about is the kind that makes something measurably better for someone, a workflow that stops being painful, a bug that stops costing people time, a system that finally just works.
         </motion.p>
 
         <motion.div
