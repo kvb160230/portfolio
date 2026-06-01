@@ -59,9 +59,9 @@ export function Hero() {
           <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-neutral-700 text-neutral-200 hover:border-neutral-500 hover:bg-neutral-900 transition-all">
             Get in touch
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-neutral-400 hover:text-neutral-200 transition-all">
+          <a href="/KrishnaBoredaResume.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-neutral-400 hover:text-neutral-200 transition-all">
             <Download className="w-4 h-4" />
-            Résumé
+            Resume
           </a>
         </motion.div>
       </div>

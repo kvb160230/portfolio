@@ -37,7 +37,7 @@ export function Nav() {
           ))}
         </div>
 
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-mono px-4 py-2 rounded-full border border-indigo-500/30 text-indigo-300 hover:bg-indigo-500/10 hover:border-indigo-500/50 transition-all">
+        <a href="/KrishnaBoredaResume.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-mono px-4 py-2 rounded-full border border-indigo-500/30 text-indigo-300 hover:bg-indigo-500/10 hover:border-indigo-500/50 transition-all">
           Résumé
         </a>
       </div>

@@ -69,7 +69,7 @@ export function About() {
         >
           <MapPin className="w-4 h-4" />
           <span className="text-sm">
-            Based in Hyderabad, India · Open to remote roles globally
+            Based in Hyderabad, India · Open to roles globally
           </span>
         </motion.div>
       </div>
