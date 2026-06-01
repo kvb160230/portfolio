@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, ExternalLink, Award } from "lucide-react";
+import { Mail, MapPin, Award } from "lucide-react";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { certifications } from "@/src/content/certifications";
 import { contact } from "@/src/content/contact";
 
@@ -83,22 +84,15 @@ export function CertificationsAndContact() {
               <span className="text-sm">{contact.location}</span>
             </div>
 
-            <div className="flex flex-wrap gap-3">
-              {contact.socials.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group inline-flex items-center gap-2 px-4 py-2 rounded-full border border-neutral-800 text-neutral-300 hover:border-neutral-600 hover:bg-neutral-900 transition-all"
-                >
-                  <span className="font-mono text-sm">{social.name}</span>
-                  <span className="text-xs text-neutral-500">
-                    @{social.handle}
-                  </span>
-                  <ExternalLink className="w-3 h-3 text-neutral-500 group-hover:text-neutral-300 transition-colors" />
-                </a>
-              ))}
+            <div className="flex items-center gap-3">
+              {contact.socials.map((social) => {
+                const Icon = social.name === "LinkedIn" ? FaLinkedin : FaGithub;
+                return (
+                  <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" aria-label={`${social.name} — @${social.handle}`} className="group inline-flex items-center justify-center w-11 h-11 rounded-full border border-neutral-800 text-neutral-300 hover:border-neutral-600 hover:bg-neutral-900 hover:text-indigo-300 transition-all">
+                    <Icon className="w-5 h-5" />
+                  </a>
+                );
+              })}
             </div>
           </motion.div>
         </div>
