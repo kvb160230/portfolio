@@ -16,11 +16,13 @@ export const experiences: Experience[] = [
     period: "Oct 2025 — Present",
     current: true,
     bullets: [
-      "Dedicated technical lead for enterprise accounts — the single point of contact when things get complicated.",
-      "Launched and own the Integrations Support Pod end-to-end: real-time onboarding troubleshooting, defect coordination with engineering, smoother launches for high-value customers.",
+      "Program-manage support for Sprinto's enterprise customers (30+ accounts), distributing tickets across the team, coordinating prioritization with engineering, and keeping product looped in on patterns worth fixing.",
+      "Previously ran enterprise support as the sole technical point of contact across the full portfolio, before evolving the role into a coordination layer that scales better for a lean team.",
+      "Launched and led the Integrations Support Pod, a focused effort to shorten the path from integration failure to resolution across 40+ third-party services. Joined onboarding calls with TAMs and worked with engineering to close gaps that documentation alone couldn't fix.",
+      "Closed small product gaps by shipping pull requests for engineering review, the kind of fixes that would otherwise have sat in the backlog as low-priority feature asks. The customer-side context came from me; the codebase access came from internal AI tooling, which I used to draft the changes and then took through review.",
       "Onboarding buddy and technical mentor for new hires joining the team.",
     ],
-    tech: ["DataDog", "Sentry", "Postman", "AWS", "Azure", "GCP"],
+    tech: ["React.js", "DataDog", "Sentry", "Metabase"],
   },
   {
     company: "Sprinto",
@@ -28,11 +30,11 @@ export const experiences: Experience[] = [
     location: "Remote, India",
     period: "Jan 2025 — Oct 2025",
     bullets: [
-      "Debugged compliance-platform issues spanning AWS, Azure, GCP, and dozens of third-party integrations — tracing logs in DataDog and Sentry, calling APIs through Postman, reading code when needed.",
-      "Wrote back-end scripts for safe, large-scale data corrections in customer environments.",
+      "Debugged compliance-platform issues spanning AWS, Azure, GCP, and dozens of third-party integrations — tracing logs in DataDog and Sentry, and calling APIs through Postman.",
+      "Executed back-end scripts for safe, large-scale data corrections, or updates in customer environments.",
       "Drove the Support SME initiative — turning recurring escalations into product fixes by partnering closely with Product and Engineering.",
     ],
-    tech: ["DataDog", "Sentry", "Postman", "Node.js", "PostgreSQL"],
+    tech: ["DataDog", "Sentry", "Postman"],
   },
   {
     company: "American First Finance",
@@ -41,11 +43,11 @@ export const experiences: Experience[] = [
     period: "Nov 2020 — May 2024",
     bullets: [
       "Level 2 support for e-commerce API integrations, including on-call rotations.",
-      "Primary contact for major retail clients — kept their checkout flows alive.",
-      "Wrote production code alongside support work: RPG stored procedures, PHP classes, and Vue components shipped based on customer-driven requirements.",
-      "Ran root cause analyses, owned post-deployment verification using Dynatrace, FullStory, MySQL, and PowerBI.",
+      "Primary contact for major retail clients, kepeping their checkout flows alive.",
+      "Wrote production code alongside support work: RPG stored procedures, PHP classes, and Vue components shipped based on customer, and internal requirements.",
+      "Ran root cause analyses, owned post-deployment verification using Dynatrace, FullStory, and MySQL.",
     ],
-    tech: ["IBM RPG", "PHP", "Vue.js", "MySQL", "Dynatrace", "Postman"],
+    tech: ["IBM RPG", "AS/400", "PHP", "Vue.js", "MySQL", "Dynatrace", "Postman"],
   },
   {
     company: "Text-Em-All",
