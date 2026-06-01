@@ -19,14 +19,14 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "Debugging & Observability",
     icon: Bug,
-    description: "Where I spend most of my time — finding the why behind the what.",
-    items: ["DataDog", "Sentry", "Dynatrace", "FullStory", "Postman", "Log tracing"],
+    description: "Where I spend a lot of my time - finding the why behind the what.",
+    items: ["DataDog", "Sentry", "Dynatrace", "FullStory", "Postman"],
   },
   {
     title: "Languages",
     icon: Code2,
-    description: "Languages I've shipped production code in.",
-    items: ["JavaScript", "TypeScript", "PHP", "IBM RPG", "R", "SQL"],
+    description: "Languages I've shipped code in.",
+    items: ["JavaScript", "TypeScript", "PHP", "IBM RPG", "Java", "C++"],
   },
   {
     title: "Frontend",
@@ -37,8 +37,8 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "Backend & Data",
     icon: Database,
-    description: "Where the business logic and the bugs both live.",
-    items: ["Node.js", "MySQL", "PostgreSQL", "IBM DB2", "BigQuery", "DynamoDB", "REST APIs"],
+    description: "Where the business logic lives.",
+    items: ["Node.js", "MySQL", "PostgreSQL", "IBM DB2", "BigQuery", "DynamoDB", "REST APIs", "Express.js", "Supabase"],
   },
   {
     title: "Cloud & Integrations",
@@ -50,6 +50,6 @@ export const skillGroups: SkillGroup[] = [
     title: "Tools & Process",
     icon: Settings,
     description: "The day-to-day workflow.",
-    items: ["Git", "JIRA", "Confluence", "Freshdesk", "Agile / Kanban", "SDLC"],
+    items: ["Git", "Jira", "Confluence", "Freshdesk", "Agile/Kanban", "SDLC", "Notion"],
   },
 ];

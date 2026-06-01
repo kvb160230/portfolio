@@ -32,7 +32,7 @@ export function About() {
         >
           <p>
             I&apos;m a computer science grad from UT Dallas who genuinely enjoys
-            the craft of building software — designing solutions, writing code,
+            the craft of building software - designing solutions, writing code,
             hunting bugs, and the small satisfaction of watching something I
             built land well with the people using it.
           </p>
